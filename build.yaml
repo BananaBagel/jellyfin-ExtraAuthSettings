@@ -1,8 +1,8 @@
 ---
 name: "ExtraAuthSettings"
 guid: "0e1e569f-1060-4115-a35d-a9886e393725"
-version: "1.0.0.0"
-targetAbi: "10.11.6.0"
+version: "1.0.0.1"
+targetAbi: "10.11.11.0"
 framework: "net9.0"
 overview: "A few extra settings for authentication/authorization of users."
 imageUrl: "https://raw.githubusercontent.com/BananaBagel/jellyfin-ExtraAuthSettings/main/style/card.svg"
