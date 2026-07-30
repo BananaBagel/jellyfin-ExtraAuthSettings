@@ -50,7 +50,7 @@ public class UserAccessController : ControllerBase
             return Forbid();
         }
 
-        return Ok(_userManager.Users
+        return Ok(_userManager.GetUsers()
             .OrderBy(user => user.Username, StringComparer.OrdinalIgnoreCase)
             .Select(user => CreateViewModel(user))
             .ToArray());
